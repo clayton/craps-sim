@@ -1,25 +1,26 @@
 class Result
-  attr_accessor :point, :shooter, :details
+  attr_accessor :shooter, :details
 
   def initialize(args)
-    @point   = args[:point]
     @shooter = args[:shooter]
     @details = setup_details
   end
 
   def self.headers
-    ["Point", "Comeout Wins", "Comeout Losses", "Numbers Rolled", "Numbers", "Outcome"]
+    ["Points Made", "Comeout Wins", "Comeout Losses", "Numbers Rolled", "Outcome"]
   end
 
   def self.display(results)
-    max_result_len = results.map{|r| r.details[4].length }.compact.max
-    max_header_len = headers.map{|h| h.length }.max
-    max_len = ((max_header_len > max_result_len) ? max_header_len : max_result_len)
+    max_len = headers.map{|h| h.length }.max
 
-    puts "| " + headers.map{|h| h.ljust(max_len, " ") }.join(" | ") + " |"
+    header_row = "| " + headers.map{|h| h.ljust(max_len, " ") }.join(" | ") + " |"
+    puts "-" * header_row.length
+    puts header_row
+    puts "-" * header_row.length
     for result in results do
       puts "| " + result.tabular_form(max_len) + " | "
     end
+    puts "-" * header_row.length
   end
 
   def tabular_form(max_len)
@@ -28,11 +29,10 @@ class Result
 
   def setup_details
      [
-      @point,
+      @shooter.points_hit,
       @shooter.comeout_wins,
       @shooter.comeout_losses,
       @shooter.numbers_rolled.size,
-      @shooter.numbers_rolled.join(", "),
       outcome(@shooter)
      ]
   end

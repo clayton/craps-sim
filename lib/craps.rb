@@ -1,14 +1,18 @@
 class Craps
 
-  attr_accessor :results
+  attr_accessor :results, :odds, :bet
 
   def initialize(args)
     @results = []
-    @game    = Game.new({:odds => args[:odds], :bet => args[:bet]})
+    @odds    = args[:odds]
+    @bet     = args[:bet]
   end
 
   def play
-    results << @game.start
+    100.times do
+      game = Game.new({:odds => @odds, :bet => @bet})
+      @results << game.start
+    end
     Result.display(results)
   end
 

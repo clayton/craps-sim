@@ -7,6 +7,6 @@ class Dice
     die_one = @dice[0]
     die_two = @dice[1]
 
-    die_one[rand(5) + 1] + die_two[rand(5) + 1]
+    die_one[rand(6)] + die_two[rand(6)]
   end
 end

@@ -1,3 +1,8 @@
+require 'Logger'
+
+LOGGER = Logger.new(STDOUT)
+LOGGER.level = Logger::WARN
+
 require 'lib/dealer.rb'
 require 'lib/shooter.rb'
 require 'lib/dice.rb'
@@ -8,5 +13,5 @@ require 'lib/craps.rb'
 # require 'rubygems'
 # require 'ruby-debug'
 
-c = Craps.new({:bet => 10, :odds => 1})
+c = Craps.new({:bet => 10, :odds => 3})
 c.play

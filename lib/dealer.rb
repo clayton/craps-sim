@@ -20,11 +20,16 @@ class Dealer
   end
 
   def pay(shooter, roll)
+    LOGGER.debug("\t[INFO] Shooter had $#{shooter.bankroll}")
     if shooter.coming_out?
       shooter.bankroll += shooter.active_bet
+      LOGGER.debug("\t[INFO] Shooter paid $#{shooter.active_bet} $(#{shooter.bankroll})")
     else
       shooter.bankroll += (shooter.active_bet * 2) + (shooter.active_odds + odds_payout(shooter.active_odds, roll))
+      LOGGER.debug("\t[INFO] Shooter paid $#{(shooter.active_bet) + (odds_payout(shooter.active_odds, roll))} $(#{shooter.bankroll})")
     end
+    clear_bets(shooter)
+    LOGGER.debug("\t[INFO] Shooter has $#{shooter.bankroll}")
   end
 
   def clear_bets(shooter)
