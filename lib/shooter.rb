@@ -24,7 +24,8 @@ class Shooter
     @dice.roll
   end
 
-  def shoot
+  def shoot(point=nil)
+    @point = point
     pass_line_odds unless @active_odds > 0
     @dice.roll
   end
@@ -44,6 +45,23 @@ class Shooter
     @bankroll > @bet && (@bankroll + @bet) > 0
   end
 
+  def won_amount
+    self.bankroll - self.starting_bankroll
+  end
+
+  def loss_amount
+    self.starting_bankroll - self.bankroll
+  end
+
+  def win?
+    1 if won_amount > loss_amount
+  end
+
+  def loss?
+    1 unless won_amount > loss_amount
+  end
+
+
 private
 
   def at_win_limit?
@@ -61,11 +79,15 @@ private
   end
 
   def pass_line_odds
-    total_odds_bet = @active_bet * @odds
+    total_odds_bet = @active_bet * odds_for_point
     if @bankroll >= total_odds_bet
-      @active_odds += @active_bet * @odds
+      @active_odds += @active_bet * odds_for_point
       self.bankroll = @bankroll - @active_odds
     end
     LOGGER.debug "\t[BET]  Shooter lays $#{@active_odds} odds ($#{@bankroll})"
+  end
+
+  def odds_for_point
+    @odds[@point]
   end
 end

@@ -9,11 +9,11 @@ class Craps
   end
 
   def play
-    100.times do
+    1.times do
       game = Game.new({:odds => @odds, :bet => @bet})
       @results << game.start
     end
-    Result.display(results)
+    StatDisplay.render(@results)
   end
 
 end

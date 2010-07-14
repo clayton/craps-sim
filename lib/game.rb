@@ -10,26 +10,33 @@ class Game
   # DOESN'T WORK AS EXPECTED
   def start
     LOGGER.info "[INFO] Starting New Game #{Time.now.to_i}"
-    dice_out
     while @shooter.has_bankroll?
-      if @point && @shooter.still_shooting?
-        proceed
+      LOGGER.info "[INFO] Coming Out"
+      comeout_roll
+      if @point
+        while @shooter.still_shooting?
+          LOGGER.info "[INFO] Still Shooting..."
+          proceed
+        end
       else
-        dice_out
+        LOGGER.info "[INFO] Still Establishing Point..."
+        next
       end
     end
     LOGGER.debug "\t[INFO] Roll Ended, Shooter has $#{shooter.bankroll}"
-    Result.new({:point => @point, :shooter => @shooter})
+    # Stat.new({:won_amount => @shooter.won_amount, :loss_amount => @shooter.loss_amount, :outcome => @shooter.outcome?})
+    {:starting_bankroll => @shooter.starting_bankroll, :bankroll => @shooter.bankroll, :win => @shooter.win?, :loss => @shooter.loss?}
   end
 
 private
 
   def proceed
-    roll = @shooter.shoot
+    roll = @shooter.shoot(@point)
     LOGGER.debug "\t[INFO] Shooter rolls a #{roll}"
     if @dealer.point_made?(roll, @point)
       @dealer.pay(@shooter, roll)
       @shooter.points_hit += 1
+      @shooter.still_shooting = false
       @point = nil
       LOGGER.debug "\t[WIN]  Shooter hits their point of #{roll} $(#{@shooter.bankroll})"
     elsif @dealer.seven_out?(roll)
@@ -42,7 +49,7 @@ private
     end
   end
 
-  def dice_out
+  def comeout_roll
     roll = @shooter.comeout
     LOGGER.debug "\t[INFO] Shooter rolls a #{roll}"
 
