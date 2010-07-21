@@ -1,13 +1,17 @@
 class StatDisplay
   class << self
     def render(results)
-      File.open("results.csv", "w") do |f|
-        f.write "Wins,Losses,Started With, Ended With\r\n"
-        results.map do |result|
-          f.write "#{result[:win]}, #{result[:loss]}, #{result[:starting_bankroll]}, #{result[:bankroll]}\r\n"
-        end
+      trials       = results.size
+      total_wins   = results.map{|r| r[:win] }.compact.inject{|sum, n| sum + n}
+      total_losses = results.map{|r| r[:loss] }.compact.inject{|sum, n| sum + n}
+      ending       = results.map{|r| r[:bankroll] }.compact.inject{|sum, n| sum + n}
+      starting     = results.map{|r| r[:starting_bankroll] }.compact.inject{|sum, n| sum + n}
 
-      end
+      winnings = (ending > starting) ? "$#{ending}" : "$(#{ending})"
+
+      puts "Win %: #{total_wins.to_f / trials.to_f}".rjust(20)
+      puts "Loss %: #{total_losses.to_f / trials.to_f}".rjust(20)
+      puts "$ Won/Lost: #{winnings}".rjust(24)
     end
   end
 end

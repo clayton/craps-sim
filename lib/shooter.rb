@@ -69,7 +69,7 @@ private
   end
 
   def at_loss_limit?
-    false
+    true if self.bankroll <= 100
   end
 
   def pass_line_bet

@@ -9,7 +9,7 @@ class Craps
   end
 
   def play
-    1.times do
+    10.times do
       game = Game.new({:odds => @odds, :bet => @bet})
       @results << game.start
     end
