@@ -1,0 +1,93 @@
+Tcraps
+v7
+r0
+t301899715.132764
+cCheck dependencies
+cProcessPCH /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch craps_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAB0A6D00000000000000EE
+t1269500525
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C11730A0000000000B37440
+t1276211978
+s11760704
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps
+t1280206915
+s9304
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.LinkFileList
+c000000004C4E683F000000000000007B
+t1280206911
+s123
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o
+t1280206914
+s6996
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m
+c000000004C4E67C300000000000000EA
+t1280206787
+s234
+i<Foundation/Foundation.h>
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch
+c000000004C4E67C30000000000000098
+t1280206787
+s152
+i<Foundation/Foundation.h>
+
+N/var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch
+t1280206914
+s41405200
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301899711#301899711#0(0"0(0#1#0"7947009927035180032#0"0#
+
+CCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301899714.500719
+e301899714.725872
+r1
+xCompileC
+xbuild/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@72"Compile /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m301899714#301899714#0(0"0(0#0#64"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m3907004821821025792#1610"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -include /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o0#
+
+CLd /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps normal x86_64
+s301899714.725985
+e301899715.132647
+r1
+xLd
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps
+xnormal
+xx86_64
+lSLF07#2@79"Link /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps301899714#301899715#0(0"0(0#0#0"4300885448#602"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -filelist /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps0#
+
+CProcessPCH /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch craps_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301899711.642887
+e301899714.500453
+r1
+xProcessPCH
+x/var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch
+xcraps_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile craps_Prefix.pch301899711#301899714#0(0"0(0#0#73"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch8242483915905131520#1498"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch -o /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch0#
+

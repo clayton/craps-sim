@@ -1,0 +1,170 @@
+Tcraps
+v7
+r0
+t301905655.636661
+cCheck dependencies
+cProcessPCH /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch craps_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/Dice.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cLd /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps normal x86_64
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004BAB0A6D00000000000000EE
+t1269500525
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.6.sdk/System/Library/Frameworks/Foundation.framework/Headers/Foundation.h
+c000000004AB9AA2700000000000013E6
+t1253681703
+s5094
+
+N/System/Library/Frameworks/Foundation.framework/Foundation
+c000000004C11730A0000000000B37440
+t1276211978
+s11760704
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.h
+c000000004C4E7CF4000000000000015C
+t1280212212
+s348
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m
+c000000004C4E7D7100000000000000EB
+t1280212337
+s235
+i"Dice.h"
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps
+t1280212855
+s10728
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/Dice.o
+t1280212426
+s9292
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.LinkFileList
+c000000004C4E79F400000000000000F5
+t1280211444
+s245
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o
+t1280212855
+s7612
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/dice.o
+t2
+s0
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m
+c000000004C4E7F760000000000000143
+t1280212854
+s323
+i<Foundation/Foundation.h>
+i"Dice.h"
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch
+c000000004C4E67C30000000000000098
+t1280206787
+s152
+i<Foundation/Foundation.h>
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.h
+c000000004C4E788C0000000000000182
+t1280211084
+s386
+
+N/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m
+c000000004C4E78C6000000000000017F
+t1280211142
+s383
+i"Dice.h"
+
+N/var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch
+t1280206914
+s41405200
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies301905655#301905655#0(0"0(0#1#0"4300885448#0"0#
+
+CCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/Dice.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301905226.149160
+e301905226.584180
+r1
+xCompileC
+xbuild/craps.build/Debug/craps.build/Objects-normal/x86_64/Dice.o
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m:17: warning: incomplete implementation of class 'Dice'
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m:17: warning: method definition for '-roll' not found
+lSLF07#2@71"Compile /Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m301905226#301905226#0(236"/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m:17: warning: incomplete implementation of class 'Dice'/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m:17: warning: method definition for '-roll' not found2(22@41"Incomplete implementation of class 'Dice'301905226#0#119#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m301905137#17#0#17#0#38"incomplete implementation of class '*'0(22@39"Method definition for '-roll' not found301905226#119#117#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m301905137#17#0#17#0#35"method definition for '*' not found0(0#0#63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m4300885448#1608"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -include /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/Dice.m -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/Dice.o0#
+
+CCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301905655.228883
+e301905655.612627
+r1
+xCompileC
+xbuild/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m: In function 'main':
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m:9: warning: passing argument 1 of 'setRollCount:' makes pointer from integer without a cast
+lSLF07#2@72"Compile /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m301905655#301905655#0(243"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m: In function 'main':/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m:9: warning: passing argument 1 of 'setRollCount:' makes pointer from integer without a cast1(22@79"Passing argument 1 of 'setRollCount:' makes pointer from integer without a cast301905655#86#157#0(6@64"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m301905654#9#0#9#0#0"0(0#0#64"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m4300885448#1610"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -include /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps.m -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.o0#
+
+CCompileC build/craps.build/Debug/craps.build/Objects-normal/x86_64/dice.o /Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301904075.980043
+e301904076.147978
+r0
+xCompileC
+xbuild/craps.build/Debug/craps.build/Objects-normal/x86_64/dice.o
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:25: error: conflicting types for '-[Dice ::]'
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:20: error: previous definition of '-[Dice ::]' was here
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m: In function '-[Dice ::]':
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:25: warning: conflicting types for '-(void):(id)setLoadedDice :(NSArray *)rollList'
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:20: warning: previous declaration of '-(void):(id)setRollCount :(NSInteger *)newCount'
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m: At top level:
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: incomplete implementation of class 'Dice'
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-roll' not found
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-setLoadedDice:' not found
+o/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-setRollCount:' not found
+lSLF07#2@71"Compile /Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301904075#301904076#0(1188"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:25: error: conflicting types for '-[Dice ::]'/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:20: error: previous definition of '-[Dice ::]' was here/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m: In function '-[Dice ::]':/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:25: warning: conflicting types for '-(void):(id)setLoadedDice :(NSArray *)rollList'/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:20: warning: previous declaration of '-(void):(id)setRollCount :(NSInteger *)newCount'/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m: At top level:/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: incomplete implementation of class 'Dice'/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-roll' not found/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-setLoadedDice:' not found/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m:29: warning: method definition for '-setRollCount:' not found9(4@34"Conflicting types for '-[Dice ::]'301904076#0#110#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#25#0#25#0#25"conflicting types for '*'0(13@44"Previous definition of '-[Dice ::]' was here301904076#110#120#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#20#0#20#0#35"previous definition of '*' was here0(22@70"Conflicting types for '-(void):(id)setLoadedDice :(NSArray *)rollList'301904076#321#148#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#25#0#25#0#25"conflicting types for '*'0(22@73"Previous declaration of '-(void):(id)setRollCount :(NSInteger *)newCount'301904076#469#151#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#20#0#20#0#0"0(23@13"At top level:301904076#620#79#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#0#0#0#0#0"0(22@41"Incomplete implementation of class 'Dice'301904076#699#119#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#29#0#29#0#38"incomplete implementation of class '*'0(22@39"Method definition for '-roll' not found301904076#818#117#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#29#0#29#0#35"method definition for '*' not found0(22@49"Method definition for '-setLoadedDice:' not found301904076#935#127#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#29#0#29#0#35"method definition for '*' not found0(22@48"Method definition for '-setRollCount:' not found301904076#1062#126#0(6@63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m301903942#29#0#29#0#35"method definition for '*' not found0(0#0#63"/Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m3907004821821025792#1608"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -include /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/dice.m -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/dice.o1#
+
+CLd /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps normal x86_64
+s301905655.612734
+e301905655.636575
+r1
+xLd
+x/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps
+xnormal
+xx86_64
+lSLF07#2@79"Link /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps301905655#301905655#0(0"0(0#0#0"4300885448#602"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/gcc-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -filelist /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/Objects-normal/x86_64/craps.LinkFileList -mmacosx-version-min=10.6 -framework Foundation -o /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/craps0#
+
+CProcessPCH /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch craps_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s301899711.642887
+e301899714.500453
+r1
+xProcessPCH
+x/var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch
+xcraps_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@27"Precompile craps_Prefix.pch301899711#301899714#0(0"0(0#0#73"/Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch8242483915905131520#1498"    cd /Users/clayton/Experimental/ruby-craps/objective-c/craps    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -std=gnu99 -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-generated-files.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-own-target-headers.hmap -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-all-target-headers.hmap -iquote /Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/craps-project-headers.hmap -F/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/Debug/include -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources/x86_64 -I/Users/clayton/Experimental/ruby-craps/objective-c/craps/build/craps.build/Debug/craps.build/DerivedSources -c /Users/clayton/Experimental/ruby-craps/objective-c/craps/craps_Prefix.pch -o /var/folders/YB/YBDoNQohFPmGFJ17XOr8ek+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/craps_Prefix-drnytnkczondjydrcgjxrwlimplu/craps_Prefix.pch.gch0#
+
